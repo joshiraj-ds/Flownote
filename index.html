@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FlowNote - Smart Note Manager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>FlowNote</h1>
+    <p>Your second brain for notes and ideas</p>
+</header>
+
+<main class="container">
+
+    <section class="note-form">
+        <h2>Create Note</h2>
+        <input type="text" id="title" placeholder="Note Title">
+        <textarea id="content" placeholder="Write your note here..."></textarea>
+        <button id="addBtn">Add Note</button>
+    </section>
+
+    <section class="notes-section">
+        <h2>Your Notes</h2>
+        <div id="notesContainer"></div>
+    </section>
+
+</main>
+
+
+<script src="app.js"></script>
+</body>
+</html>
